@@ -1,7 +1,6 @@
-import '@babel/polyfill';
 import { sayHello } from './module';
 
-const obj = {
+const obj: { [key: string]: boolean } = {
   foo: true,
   bar: false
 };
