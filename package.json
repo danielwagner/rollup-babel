@@ -1,0 +1,24 @@
+{
+  "name": "rollup-babel",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielwagner/rollup-babel.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "daniel.wagner@1und1.de",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-env": "^7.3.4",
+    "rollup": "^1.6.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1"
+  }
+}
