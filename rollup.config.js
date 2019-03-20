@@ -8,9 +8,9 @@ export default {
   input: 'src/index.ts',
   output: {
     file: 'dist/bundle.js',
-    format: 'iife'
+    format: 'iife',
+    sourcemap: true
   },
-  sourcemap: true,
   plugins: [
     resolve({
       jsnext: true,
