@@ -6,7 +6,8 @@ export default {
   input: 'src/index.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'iife'
+    format: 'iife',
+    sourcemap: true
   },
   external: [ '@babel-polyfill' ],
   plugins: [
